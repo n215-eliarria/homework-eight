@@ -1,0 +1,63 @@
+.contactContent{
+    height: calc(100% - 98px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+    .left{
+        width: 50%;
+        height: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/pexels-cup-of-couple-6177573.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;    
+    }
+    .right{
+        width: 50%;
+        height: 100%;
+        background-color: white;
+
+        .word-holder{
+            width: 100%;
+            padding: 20px;
+            margin-top: 20px;
+
+            h1{
+                font-size: 42px;
+                font-family: arial;
+
+            }
+            
+        }
+        .form-holder{
+            margin-left: 150px;
+
+                span{
+                margin-left: 120px;
+                border-radius: 50px;
+                background-color: #471F00;
+                color: white;
+                width: 168px;
+                padding: 10px 20px;
+                display: block;
+                text-align: center;
+                }
+            
+            .form{
+                label{
+                    display: block;
+                    margin-bottom: 10px;
+                }
+                input{
+                height: 68px;
+                width: 400px;
+                margin-bottom: 50px;
+                border: solid #471F00;
+
+                }
+
+            }
+        }
+    }
+}
